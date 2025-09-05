@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw
 od_pipe = pipeline("object-detection", model="facebook/detr-resnet-50")
 
 # Load image
-raw_image = Image.open("img1.jpg")
+raw_image = Image.open("img3.jpg")
 
 # Run detection
 pipeline_output = od_pipe(raw_image)
